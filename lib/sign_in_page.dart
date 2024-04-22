@@ -29,8 +29,8 @@ class _SignInPageState extends State<SignInPage> {
               ),
             ),
           ),
-          Padding(
-            padding: const EdgeInsets.only(top: 80.0, left: 32),
+          const Padding(
+            padding: EdgeInsets.only(top: 80.0, left: 32),
             child: Text(
               'Hello!\nSign in!',
               style: TextStyle(
@@ -61,7 +61,6 @@ class _SignInPageState extends State<SignInPage> {
                               color: Color(0xFFB31836),
                               fontWeight: FontWeight.w600,
                             ),
-                            //prefixIcon: Icon(Icons.email),
                           ),
                         ),
                         const SizedBox(height: 16.0),
@@ -73,7 +72,6 @@ class _SignInPageState extends State<SignInPage> {
                               color: Color(0xFFB31836),
                               fontWeight: FontWeight.w600,
                             ),
-                            // prefixIcon: const Icon(Icons.lock),
                             suffixIcon: IconButton(
                               icon: Icon(
                                 _obscureText

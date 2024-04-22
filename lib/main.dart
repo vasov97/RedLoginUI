@@ -98,7 +98,6 @@ class MyApp extends StatelessWidget {
                 ],
               ),
               Column(
-                //mainAxisAlignment: MainAxisAlignment.end,
                 children: [
                   SizedBox(
                     height: screenHeight * 0.1,

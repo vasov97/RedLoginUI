@@ -29,8 +29,8 @@ class _SignUpPageState extends State<SignUpPage> {
               ),
             ),
           ),
-          Padding(
-            padding: const EdgeInsets.only(top: 80.0, left: 32),
+          const Padding(
+            padding: EdgeInsets.only(top: 80.0, left: 32),
             child: Text(
               'Create Your\nAccount',
               style: TextStyle(
@@ -58,17 +58,15 @@ class _SignUpPageState extends State<SignUpPage> {
                               color: Color(0xFFB31836),
                               fontWeight: FontWeight.w600,
                             ),
-                            //prefixIcon: Icon(Icons.email),
                           ),
                         ),
-                        TextField(
+                        const TextField(
                           decoration: InputDecoration(
                             labelText: 'Phone or Gmail',
                             labelStyle: TextStyle(
                               color: Color(0xFFB31836),
                               fontWeight: FontWeight.w600,
                             ),
-                            //prefixIcon: Icon(Icons.email),
                           ),
                         ),
                         const SizedBox(height: 16.0),
@@ -80,7 +78,6 @@ class _SignUpPageState extends State<SignUpPage> {
                               color: Color(0xFFB31836),
                               fontWeight: FontWeight.w600,
                             ),
-                            //prefixIcon: const Icon(Icons.lock),
                             suffixIcon: IconButton(
                               icon: Icon(
                                 _obscureText
@@ -104,7 +101,6 @@ class _SignUpPageState extends State<SignUpPage> {
                               color: Color(0xFFB31836),
                               fontWeight: FontWeight.w600,
                             ),
-                            // prefixIcon: const Icon(Icons.lock),
                             suffixIcon: IconButton(
                               icon: Icon(
                                 _obscureText
